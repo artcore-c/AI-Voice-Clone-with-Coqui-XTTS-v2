@@ -1,7 +1,0 @@
-# Sample Outputs
-
-This folder will contain your generated voice clones after running the Colab notebook.
-
-Your cloned audio files will download to `/content/cloned_voice.wav` in Colab, which you can then download to your local machine.
-
-**Note:** Sample audio files are not included in this repository for privacy reasons. Generate your own using the tutorial!
