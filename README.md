@@ -46,6 +46,35 @@ ___
 - 2-5 minutes in length
 - 16-bit or 24-bit, 44.1kHz or 48kHz sample rate recommended
 
+#### Converting Audio to WAV
+
+**macOS (built-in tool):**
+```zsh
+# afconvert comes pre-installed on macOS
+afconvert -f WAVE -d LEI16 input.m4a output.wav
+```
+
+**Mac/Linux/Windows (use ffmpeg):**
+
+Install ffmpeg first:
+```zsh
+# macOS with MacPorts
+sudo port install ffmpeg
+
+# Ubuntu/Debian
+sudo apt-get install ffmpeg
+
+# Windows (with Chocolatey)
+choco install ffmpeg
+```
+
+Convert audio:
+```zsh
+ffmpeg -i input.m4a -ar 24000 output.wav
+```
+
+Supported input formats: .m4a, .mp3, .mp4, .mov, and most audio/video formats.
+
 #### See **Notes:** section below for Hardware Recommendations
 
 ___
