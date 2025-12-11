@@ -123,6 +123,17 @@ ___
 !/content/py311env/bin/pip install TTS
 ```
 
+### Install additional requirements:
+> **Transformers with** `BeamSearchScorer`
+```bash
+!/content/py311env/bin/pip install "transformers<4.50.0"
+```
+
+> **PyTorch 2.1.x** 
+```bash
+!/content/py311env/bin/pip install torch==2.1.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+```
+___
 ### Cell 3 - Create a Python Script to Load the Model:
 ```python
 %%writefile /content/load_model.py
@@ -133,17 +144,6 @@ import torch
 device = "cuda" if torch.cuda.is_available() else "cpu"
 tts = TTS('tts_models/multilingual/multi-dataset/xtts_v2').to(device)
 print(f'Model loaded on {device}!')
-```
-___
-### Install additional requirements:
-> **Transformers with** `BeamSearchScorer`
-```bash
-!/content/py311env/bin/pip install "transformers<4.50.0"
-```
-
-> **PyTorch 2.1.x** 
-```bash
-!/content/py311env/bin/pip install torch==2.1.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
 ```
 ___
 ### Cell 4 - Run the Model with Python 3.11:
