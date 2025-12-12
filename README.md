@@ -170,13 +170,13 @@ import torch
 device = "cuda" if torch.cuda.is_available() else "cpu"
 tts = TTS('tts_models/multilingual/multi-dataset/xtts_v2').to(device)
 
-# Your text here
-text = "Hey everyone, welcome back to the channel. Today we're going to be looking at the uConsole VPN router project."
+# Insert your text here to replace the example "..."
+text = "He became as good a friend, as good a master, and as good a man as the good old city knew." 
 
 # Generate speech
 tts.tts_to_file(
     text=text,
-    speaker_wav="/content/drive/MyDrive/Your_Audio_File.wav",  # Updated path
+    speaker_wav="/content/drive/MyDrive/Your_Audio_File.wav",  # <-- change this to match your audio file
     language="en",
     file_path="/content/cloned_voice.wav"
 )
