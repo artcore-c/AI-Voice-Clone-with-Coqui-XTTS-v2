@@ -1,5 +1,5 @@
 # AI Voice Clone with Coqui XTTS-v2
-Free voice cloning for creators using Coqui XTTS-v2 on Google Colab. Clone your voice with just 2-5 minutes of audio for consistent narration. Tutorial + working notebook included. Non-commercial use only.
+Free voice cloning for creators using Coqui XTTS-v2 on Google Colab. Clone your voice with just 2-5 minutes of audio for consistent narration. Complete guide to build your own notebook. Non-commercial use only.
 
 ## Overview
 
