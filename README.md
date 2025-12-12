@@ -78,23 +78,11 @@ Supported input formats: .m4a, .mp3, .mp4, .mov, and most audio/video formats.
 #### See **Notes:** section below for Hardware Recommendations
 
 ___
-## 🎬 Video Tutorial
+## 🎬 Video Guide
 
-<table style="border: 0; border-spacing: 0; border-collapse: collapse; background: transparent;">
-<tr style="border: 0;">
-<td style="vertical-align: top; border: 0; padding: 0; padding-right: 24px; background: transparent;">
-  <a href="https://www.youtube.com/@3DCharacterArt/featured">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" width="64" height="64"/>
-  </a>
-</td>
-<td style="vertical-align: top; border: 0; padding: 0; background: transparent;">
-  <h2 style="margin-top: 0;">YouTube Companion Video:</h2>
-  <strong>Watch the tutorial on YouTube <a href="https://www.youtube.com/@3DCharacterArt/featured">Free AI Voice Cloning for Creators with Coqui-XTTS-v2</a></strong>
-</td>
-</tr>
-</table>
+[![AI Voice Clone with Colab + Coqui XTTSv2 (Free)](https://img.youtube.com/vi/CgDs8WL5YSE/maxresdefault.jpg)](https://youtu.be/CgDs8WL5YSE)
 
-This repository was created as a companion to the video tutorial covering:
+This repository was created as a companion to the YouTube video covering:
 - **Coqui XTTS-v2** setup with Google Colab
 
 ___
