@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Allowed scripts
+!scripts/coqui_xtts_v2_google_colab.py
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Audio files (if testing locally)
+*.wav
+*.mp3
+
+# macOS
+.DS_Store
