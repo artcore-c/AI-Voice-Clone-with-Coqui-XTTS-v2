@@ -88,7 +88,8 @@ This repository was created as a companion to the YouTube video covering:
 ___
 ## 🚀 Quick Start
 
-1. Open the Colab notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artcore-c/AI-Voice-Clone-Coqui-XTTS-v2-Google-Colab/blob/main/Coqui-XTTS-v2-Google-Colab.ipynb)
+1. 1. Start a new notebook in Google Colab:
+   https://colab.research.google.com/
 2. Enable GPU: Runtime → Change runtime type → T4 GPU
 3. Run cells 1-4 in order (takes ~5 minutes first time)
 4. Upload your audio file when prompted
