@@ -88,7 +88,7 @@ This repository was created as a companion to the YouTube video covering:
 ___
 ## 🚀 Quick Start
 
-1. 1. Start a new notebook in Google Colab:
+1. Start a new notebook in Google Colab:
    https://colab.research.google.com/
 2. Enable GPU: Runtime → Change runtime type → T4 GPU
 3. Run cells 1-4 in order (takes ~5 minutes first time)
